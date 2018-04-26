@@ -72,3 +72,15 @@ print OUT "Total_gene_length\t$len_gene\n";
 print OUT "Average_gene_length\t",$len_gene/$ngene,"\n";
 print OUT "Longest_gene\t$maxgene\n";
 print OUT "Smallest_gene\t$mingene\n";
+
+print OUT "Total_exon_number\t$nexon\n";
+print OUT "Total_exon_length\t$len_exon\n";
+print OUT "Average_exon_length\t",$len_exon/$nexon,"\n";
+print OUT "Longest_exon\t$maxexon\n";
+print OUT "Smallest_exon\t$minexon\n";
+
+print OUT "Total_CDS_number\t$nCDS\n";
+print OUT "Total_CDS_length\t$len_CDS\n";
+print OUT "Average_CDS_length\t",$len_CDS/$nCDS,"\n";
+print OUT "Longest_CDS\t$maxCDS\n";
+print OUT "Smallest_CDS\t$minCDS\n";
